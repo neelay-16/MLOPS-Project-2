@@ -1,0 +1,59 @@
+2025-04-21 08:14:46,522-INFO-Model Training & COMET ML initialized..
+2025-04-21 08:14:46,794-INFO-Data loaded sucesfully for Model Trainig
+2025-04-21 08:14:46,847-INFO-Successfully read YAML file: config/config.yaml
+2025-04-21 08:14:46,847-INFO-Loaded configuration from config.yaml
+2025-04-21 08:14:47,786-INFO-Model created sucesfully....
+2025-04-21 08:15:53,651-INFO-Model training Completedd.....
+2025-04-21 08:15:53,651-WARNING-You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-21 08:15:53,732-INFO-Model saved to artifacts/model\model.h5
+2025-04-21 08:15:53,732-INFO-Extracting weights for user_embedding
+2025-04-21 08:15:53,732-INFO-Extracting weights for anime_embedding
+2025-04-21 08:15:53,827-INFO-User and Anime weights saved sucesfully....
+2025-04-21 08:54:01,118-INFO-Model Training & COMET ML initialized..
+2025-04-21 08:54:01,359-INFO-Data loaded sucesfully for Model Trainig
+2025-04-21 08:54:01,407-INFO-Successfully read YAML file: config/config.yaml
+2025-04-21 08:54:01,407-INFO-Loaded configuration from config.yaml
+2025-04-21 08:54:02,174-INFO-Model created sucesfully....
+2025-04-21 08:55:06,907-INFO-Model training Completedd.....
+2025-04-21 08:55:06,907-WARNING-You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-21 08:55:06,990-INFO-Model saved to artifacts/model\model.h5
+2025-04-21 08:55:07,002-INFO-Extracting weights for user_embedding
+2025-04-21 08:55:07,014-INFO-Extracting weights for anime_embedding
+2025-04-21 08:55:07,089-INFO-User and Anime weights saved sucesfully....
+2025-04-21 10:21:06,590-INFO-DataProcessing Intialized
+2025-04-21 10:21:08,181-INFO-Data loaded sucesfully for Data Processing
+2025-04-21 10:21:08,463-INFO-Filtered users sucesfully...
+2025-04-21 10:21:10,133-INFO-Scalind done for Processing 
+2025-04-21 10:21:10,363-INFO-Encoding done for Users and Anime
+2025-04-21 10:21:11,133-INFO-Data splitted sucesfullyy
+2025-04-21 10:21:11,153-INFO-user2user_encoded saved sucesfully in processed directory
+2025-04-21 10:21:11,171-INFO-user2user_decoded saved sucesfully in processed directory
+2025-04-21 10:21:11,241-INFO-anim2anime_encoded saved sucesfully in processed directory
+2025-04-21 10:21:11,312-INFO-anim2anime_decoded saved sucesfully in processed directory
+2025-04-21 10:21:18,314-INFO-ALl the training testing data as well as rating_df is saved now..
+2025-04-21 10:21:30,049-INFO-DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-04-21 10:21:30,050-INFO-Data Processing Pipeline Run sucesfully .... Congrats
+2025-04-21 10:21:38,716-INFO-Model Training & COMET ML initialized..
+2025-04-21 10:21:38,893-INFO-Data loaded sucesfully for Model Trainig
+2025-04-21 10:21:38,941-INFO-Successfully read YAML file: config/config.yaml
+2025-04-21 10:21:38,941-INFO-Loaded configuration from config.yaml
+2025-04-21 10:21:39,719-ERROR-Error occurfed during model architecture 'KerasHistory' object has no attribute 'layer'
+2025-04-21 10:21:39,719-ERROR-Error in C:\Users\ramba\Desktop\MLOPS PROJECT - 2\src\base_model.py, line 39 : Failed to create model
+2025-04-21 19:03:18,634-INFO-DataProcessing Intialized
+2025-04-21 19:03:20,202-INFO-Data loaded sucesfully for Data Processing
+2025-04-21 19:03:20,412-INFO-Filtered users sucesfully...
+2025-04-21 19:03:21,983-INFO-Scalind done for Processing 
+2025-04-21 19:03:22,220-INFO-Encoding done for Users and Anime
+2025-04-21 19:03:22,955-INFO-Data splitted sucesfullyy
+2025-04-21 19:03:22,975-INFO-user2user_encoded saved sucesfully in processed directory
+2025-04-21 19:03:22,992-INFO-user2user_decoded saved sucesfully in processed directory
+2025-04-21 19:03:23,051-INFO-anim2anime_encoded saved sucesfully in processed directory
+2025-04-21 19:03:23,114-INFO-anim2anime_decoded saved sucesfully in processed directory
+2025-04-21 19:03:30,550-INFO-ALl the training testing data as well as rating_df is saved now..
+2025-04-21 19:03:43,079-INFO-DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-04-21 19:03:43,085-INFO-Data Processing Pipeline Run sucesfully .... Congrats
+2025-04-21 19:03:52,296-INFO-Model Training & COMET ML initialized..
+2025-04-21 19:03:52,405-INFO-Data loaded sucesfully for Model Trainig
+2025-04-21 19:03:52,465-INFO-Successfully read YAML file: config/config.yaml
+2025-04-21 19:03:52,465-INFO-Loaded configuration from config.yaml
+2025-04-21 19:03:52,465-ERROR-BaseModel.RecommenderNet() got multiple values for argument 'n_users'

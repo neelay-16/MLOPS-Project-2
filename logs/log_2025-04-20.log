@@ -1,0 +1,25 @@
+2025-04-20 14:18:07,415-INFO-DataProcessing Intialized
+2025-04-20 14:18:09,275-INFO-Data loaded sucesfully for Data Processing
+2025-04-20 14:18:09,540-INFO-Filtered users sucesfully...
+2025-04-20 14:18:11,309-INFO-Scalind done for Processing 
+2025-04-20 14:18:11,555-INFO-Encoding done for Users and Anime
+2025-04-20 14:18:12,293-INFO-Data splitted sucesfullyy
+2025-04-20 14:18:12,307-INFO-user2user_encoded saved sucesfully in processed directory
+2025-04-20 14:18:12,326-INFO-user2user_decoded saved sucesfully in processed directory
+2025-04-20 14:18:12,389-INFO-anim2anime_encoded saved sucesfully in processed directory
+2025-04-20 14:18:12,457-INFO-anim2anime_decoded saved sucesfully in processed directory
+2025-04-20 14:18:20,794-INFO-ALl the training testing data as well as rating_df is saved now..
+2025-04-20 14:18:34,318-INFO-DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-04-20 14:18:34,320-INFO-Data Processing Pipeline Run sucesfully .... Congrats
+2025-04-20 21:12:09,300-INFO-Model Training & COMET ML initialized..
+2025-04-20 21:12:09,574-INFO-Data loaded sucesfully for Model Trainig
+2025-04-20 21:12:09,619-INFO-Successfully read YAML file: config/config.yaml
+2025-04-20 21:12:09,620-INFO-Loaded configuration from config.yaml
+2025-04-20 21:12:09,620-ERROR-Error occurfed during model architecture 'model'
+2025-04-20 21:12:09,620-ERROR-Error in c:\users\ramba\desktop\mlops project - 2\src\base_model.py, line 19 : Failed to create model
+2025-04-20 21:30:05,195-INFO-Model Training & COMET ML initialized..
+2025-04-20 21:30:05,443-INFO-Data loaded sucesfully for Model Trainig
+2025-04-20 21:30:05,486-INFO-Successfully read YAML file: config/config.yaml
+2025-04-20 21:30:05,486-INFO-Loaded configuration from config.yaml
+2025-04-20 21:30:05,486-ERROR-Error occurfed during model architecture 'model'
+2025-04-20 21:30:05,486-ERROR-Error in C:\Users\ramba\Desktop\MLOPS PROJECT - 2\src\base_model.py, line 21 : Failed to create model

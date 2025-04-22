@@ -1,0 +1,27 @@
+2025-04-16 11:25:07,351-INFO-Successfully read YAML file: config/config.yaml
+2025-04-16 11:25:07,351-INFO-Data Ingestion started with neelyaaaa2 and ['anime.csv', 'anime_with_synopsis.csv', 'animelist.csv']
+2025-04-16 11:25:07,351-INFO-Running the data ingestion
+2025-04-16 11:25:15,798-INFO-Datasets ingestion completed
+2025-04-16 11:25:15,812-INFO-Datasets ingestion completed
+2025-04-16 11:25:15,812-INFO-Datasets ingestion completed
+2025-04-16 11:25:15,812-INFO-Data Ingestion completed
+2025-04-16 11:25:15,812-INFO-Data Ingestion completed
+2025-04-16 11:27:31,240-INFO-Successfully read YAML file: config/config.yaml
+2025-04-16 11:27:31,246-INFO-Data Ingestion started with neelyaaaa2 and ['anime.csv', 'anime_with_synopsis.csv', 'animelist.csv']
+2025-04-16 11:27:31,246-INFO-Running the data ingestion
+2025-04-16 11:27:37,518-INFO-Datasets ingestion completed
+2025-04-16 11:27:37,518-INFO-Datasets ingestion completed
+2025-04-16 11:27:37,518-INFO-Datasets ingestion completed
+2025-04-16 11:27:37,518-INFO-Data Ingestion completed
+2025-04-16 11:27:37,518-INFO-Data Ingestion completed
+2025-04-16 11:30:12,695-INFO-Successfully read YAML file: config/config.yaml
+2025-04-16 11:30:12,695-INFO-Data Ingestion started with neelyaaaa2 and ['anime.csv', 'anime_with_synopsis.csv', 'animelist.csv']
+2025-04-16 11:30:12,695-INFO-Running the data ingestion
+2025-04-16 11:30:21,945-INFO-Downloading Smaller Files ie anime and anime_with synopsis
+2025-04-16 11:30:21,945-INFO-Datasets ingestion completed
+2025-04-16 11:30:23,848-INFO-Downloading Smaller Files ie anime and anime_with synopsis
+2025-04-16 11:30:23,850-INFO-Datasets ingestion completed
+2025-04-16 11:33:26,879-INFO-Large file detected Only downloading 5M rows
+2025-04-16 11:33:26,889-INFO-Datasets ingestion completed
+2025-04-16 11:33:26,914-INFO-Data Ingestion completed
+2025-04-16 11:33:26,914-INFO-Data Ingestion completed
