@@ -6,3 +6,6 @@ pyyaml
 tensorflow
 matplotlib
 joblib
+comet_ml
+dvc
+dvc-gs

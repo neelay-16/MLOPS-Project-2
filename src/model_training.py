@@ -2,15 +2,11 @@ import joblib
 import comet_ml
 import numpy as np
 import os
-import tensorflow as tf
-from tensorflow.python.keras.callbacks import ModelCheckpoint,LearningRateScheduler,TensorBoard,EarlyStopping
+from tensorflow.keras.callbacks import ModelCheckpoint,LearningRateScheduler,TensorBoard,EarlyStopping
 from src.logger import get_logger
 from src.custom_exception import CustomException
-import sys
-sys.path.append('C:/Users/ramba/Desktop/MLOPS PROJECT - 2')
 from src.base_model import BaseModel
 from config.paths_config import *
-
 
 logger = get_logger(__name__)
 
@@ -19,9 +15,9 @@ class ModelTraining:
         self.data_path= data_path
 
         self.experiment = comet_ml.Experiment(
-            api_key="LMw0Guna8sohE1ZJQS92NZ11z",
-            project_name="MLOPS_PROJECT-2",
-            workspace="neelay-16"
+            api_key="uqgrnGhGvBA0zC3HfdmGf2WN9",
+            project_name="mlops-course-2",
+            workspace="data-guru0"
         )
         logger.info("Model Training & COMET ML initialized..")
     
@@ -44,11 +40,9 @@ class ModelTraining:
             n_users = len(joblib.load(USER2USER_ENCODED))
             n_anime = len(joblib.load(ANIME2ANIME_ENCODED))
 
-            # Create an instance of BaseModel with the config path
-            model_builder = BaseModel(config_path=CONFIG_PATH)
-            
-            # Call the RecommenderNet method on the instance
-            model = model_builder.RecommenderNet(n_users=n_users, n_anime=n_anime)
+            base_model = BaseModel(config_path=CONFIG_PATH)
+
+            model = base_model.RecommenderNet(n_users=n_users,n_anime=n_anime)
 
             start_lr = 0.00001
             min_lr = 0.0001
@@ -80,7 +74,6 @@ class ModelTraining:
             os.makedirs(WEIGHTS_DIR,exist_ok=True)
 
             try:
-
                 history = model.fit(
                         x=X_train_array,
                         y=y_train,
@@ -144,3 +137,11 @@ class ModelTraining:
 if __name__=="__main__":
     model_trainer = ModelTraining(PROCESSED_DIR)
     model_trainer.train_model()
+    
+
+
+
+
+        
+
+
