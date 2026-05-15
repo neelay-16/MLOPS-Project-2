@@ -1,0 +1,44 @@
+2026-05-15 09:34:27,514-INFO-DataProcessing Intialized
+2026-05-15 09:34:30,180-INFO-Data loaded sucesfully for Data Processing
+2026-05-15 09:34:30,593-INFO-Filtered users sucesfully...
+2026-05-15 09:34:32,587-INFO-Scalind done for Processing 
+2026-05-15 09:34:32,802-INFO-Encoding done for Users and Anime
+2026-05-15 09:34:33,370-INFO-Data splitted sucesfullyy
+2026-05-15 09:34:33,388-INFO-user2user_encoded saved sucesfully in processed directory
+2026-05-15 09:34:33,405-INFO-user2user_decoded saved sucesfully in processed directory
+2026-05-15 09:34:33,466-INFO-anim2anime_encoded saved sucesfully in processed directory
+2026-05-15 09:34:33,529-INFO-anim2anime_decoded saved sucesfully in processed directory
+2026-05-15 09:34:41,705-INFO-ALl the training testing data as well as rating_df is saved now..
+2026-05-15 09:35:25,761-INFO-DF AND SYNOPSIS_Df saved sucesfullyy...
+2026-05-15 09:35:25,766-INFO-Data Processing Pipeline Run sucesfully .... Congrats
+2026-05-15 09:35:36,068-INFO-Model Training & COMET ML initialized..
+2026-05-15 09:35:36,265-INFO-Data loaded sucesfully for Model Trainig
+2026-05-15 09:35:36,310-INFO-Successfully read YAML file: config/config.yaml
+2026-05-15 09:35:36,310-INFO-Loaded configuration from config.yaml
+2026-05-15 09:35:37,262-WARNING-TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-15 09:35:37,269-INFO-Model created sucesfully....
+2026-05-15 09:37:01,919-INFO-DataProcessing Intialized
+2026-05-15 09:37:04,597-INFO-Data loaded sucesfully for Data Processing
+2026-05-15 09:37:05,013-INFO-Filtered users sucesfully...
+2026-05-15 09:37:06,960-INFO-Scalind done for Processing 
+2026-05-15 09:37:07,174-INFO-Encoding done for Users and Anime
+2026-05-15 09:37:07,758-INFO-Data splitted sucesfullyy
+2026-05-15 09:37:07,776-INFO-user2user_encoded saved sucesfully in processed directory
+2026-05-15 09:37:07,793-INFO-user2user_decoded saved sucesfully in processed directory
+2026-05-15 09:37:07,854-INFO-anim2anime_encoded saved sucesfully in processed directory
+2026-05-15 09:37:07,917-INFO-anim2anime_decoded saved sucesfully in processed directory
+2026-05-15 09:37:16,280-INFO-ALl the training testing data as well as rating_df is saved now..
+2026-05-15 09:37:59,312-INFO-DF AND SYNOPSIS_Df saved sucesfullyy...
+2026-05-15 09:37:59,317-INFO-Data Processing Pipeline Run sucesfully .... Congrats
+2026-05-15 09:38:09,357-INFO-Model Training & COMET ML initialized..
+2026-05-15 09:38:09,537-INFO-Data loaded sucesfully for Model Trainig
+2026-05-15 09:38:09,579-INFO-Successfully read YAML file: config/config.yaml
+2026-05-15 09:38:09,579-INFO-Loaded configuration from config.yaml
+2026-05-15 09:38:09,709-WARNING-TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-15 09:38:09,714-INFO-Model created sucesfully....
+2026-05-15 09:39:15,079-INFO-Model training Completedd.....
+2026-05-15 09:39:15,080-WARNING-You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-15 09:39:15,180-INFO-Model saved to artifacts/model\model.h5
+2026-05-15 09:39:15,184-INFO-Extracting weights for user_embedding
+2026-05-15 09:39:15,195-INFO-Extracting weights for anime_embedding
+2026-05-15 09:39:15,254-INFO-User and Anime weights saved sucesfully....

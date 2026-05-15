@@ -1,0 +1,4 @@
+2026-05-14 11:48:20,380-INFO-DataProcessing Intialized
+2026-05-14 11:48:20,382-ERROR-Error in C:\Users\ramba\Desktop\MLOPS PROJECT - 2\src\data_processing.py, line 34 : Failed to load data
+2026-05-14 11:48:55,079-INFO-Model Training & COMET ML initialized..
+2026-05-14 11:48:55,079-ERROR-Error in C:\Users\ramba\Desktop\MLOPS PROJECT - 2\src\model_training.py, line 26 : Failed to load data

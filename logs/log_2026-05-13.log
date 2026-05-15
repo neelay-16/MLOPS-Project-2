@@ -1,0 +1,50 @@
+2026-05-13 12:31:57,261-INFO-DataProcessing Intialized
+2026-05-13 12:31:59,979-INFO-Data loaded sucesfully for Data Processing
+2026-05-13 12:32:00,368-INFO-Filtered users sucesfully...
+2026-05-13 12:32:02,325-INFO-Scalind done for Processing 
+2026-05-13 12:32:02,530-INFO-Encoding done for Users and Anime
+2026-05-13 12:32:03,120-INFO-Data splitted sucesfullyy
+2026-05-13 12:32:03,138-INFO-user2user_encoded saved sucesfully in processed directory
+2026-05-13 12:32:03,154-INFO-user2user_decoded saved sucesfully in processed directory
+2026-05-13 12:32:03,214-INFO-anim2anime_encoded saved sucesfully in processed directory
+2026-05-13 12:32:03,275-INFO-anim2anime_decoded saved sucesfully in processed directory
+2026-05-13 12:32:11,023-INFO-ALl the training testing data as well as rating_df is saved now..
+2026-05-13 12:32:52,731-INFO-DF AND SYNOPSIS_Df saved sucesfullyy...
+2026-05-13 12:32:52,735-INFO-Data Processing Pipeline Run sucesfully .... Congrats
+2026-05-13 12:33:03,727-INFO-Model Training & COMET ML initialized..
+2026-05-13 12:33:03,880-INFO-Data loaded sucesfully for Model Trainig
+2026-05-13 12:33:03,923-INFO-Successfully read YAML file: config/config.yaml
+2026-05-13 12:33:03,924-INFO-Loaded configuration from config.yaml
+2026-05-13 12:33:04,108-WARNING-TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-13 12:33:04,112-INFO-Model created sucesfully....
+2026-05-13 12:34:10,235-INFO-Model training Completedd.....
+2026-05-13 12:34:10,236-WARNING-You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-13 12:34:10,312-INFO-Model saved to artifacts/model\model.h5
+2026-05-13 12:34:10,317-INFO-Extracting weights for user_embedding
+2026-05-13 12:34:10,333-INFO-Extracting weights for anime_embedding
+2026-05-13 12:34:10,387-INFO-User and Anime weights saved sucesfully....
+2026-05-13 12:37:57,978-INFO-DataProcessing Intialized
+2026-05-13 12:38:00,616-INFO-Data loaded sucesfully for Data Processing
+2026-05-13 12:38:00,888-INFO-Filtered users sucesfully...
+2026-05-13 12:38:02,759-INFO-Scalind done for Processing 
+2026-05-13 12:38:02,953-INFO-Encoding done for Users and Anime
+2026-05-13 12:38:03,491-INFO-Data splitted sucesfullyy
+2026-05-13 12:38:03,508-INFO-user2user_encoded saved sucesfully in processed directory
+2026-05-13 12:38:03,524-INFO-user2user_decoded saved sucesfully in processed directory
+2026-05-13 12:38:03,582-INFO-anim2anime_encoded saved sucesfully in processed directory
+2026-05-13 12:38:03,640-INFO-anim2anime_decoded saved sucesfully in processed directory
+2026-05-13 12:38:11,327-INFO-ALl the training testing data as well as rating_df is saved now..
+2026-05-13 12:38:52,077-INFO-DF AND SYNOPSIS_Df saved sucesfullyy...
+2026-05-13 12:38:52,082-INFO-Data Processing Pipeline Run sucesfully .... Congrats
+2026-05-13 12:39:02,748-INFO-Model Training & COMET ML initialized..
+2026-05-13 12:39:02,914-INFO-Data loaded sucesfully for Model Trainig
+2026-05-13 12:39:02,956-INFO-Successfully read YAML file: config/config.yaml
+2026-05-13 12:39:02,956-INFO-Loaded configuration from config.yaml
+2026-05-13 12:39:03,089-WARNING-TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-13 12:39:03,094-INFO-Model created sucesfully....
+2026-05-13 12:40:07,178-INFO-Model training Completedd.....
+2026-05-13 12:40:07,179-WARNING-You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-13 12:40:07,241-INFO-Model saved to artifacts/model\model.h5
+2026-05-13 12:40:07,245-INFO-Extracting weights for user_embedding
+2026-05-13 12:40:07,255-INFO-Extracting weights for anime_embedding
+2026-05-13 12:40:07,325-INFO-User and Anime weights saved sucesfully....
