@@ -43,7 +43,7 @@ pipeline {
                         echo 'DVC Pul....'
                         sh '''
                         . ${VENV_DIR}/bin/activate
-                        dvc pull
+                        DVC_NO_ANALYTICS=1 dvc pull
                         '''
                     }
                 }
