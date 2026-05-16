@@ -1,0 +1,23 @@
+# .gcloudignore
+
+# Ignore everything by default
+**
+
+# Allow important folders and files
+!Dockerfile
+!requirements.txt
+!setup.py
+!src/
+!pipeline/
+!artifacts/
+!application.py
+!*.pkl
+!*.joblib
+!*.model
+
+# Still ignore unnecessary large folders
+**/__pycache__/
+**/.git/
+**/.github/
+**/.vscode/
+*.log
