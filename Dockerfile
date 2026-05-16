@@ -2,6 +2,7 @@ FROM python:3.11-slim-bookworm
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
+    PYTHONPATH="${PYTHONPATH}:/app"
 
 RUN apt-get update --fix-missing && \
     apt-get install -y --no-install-recommends \
