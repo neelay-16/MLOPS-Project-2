@@ -4,6 +4,8 @@ import os
 
 #sys.path.insert(0, '/app')
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from pipeline.prediction_pipeline import hybrid_recommendation
 
 app = Flask(__name__)
