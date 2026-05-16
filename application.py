@@ -1,7 +1,8 @@
 from flask import Flask,render_template,request
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+app_root = os.path.abspath(os.path.dirname(__file__))
+sys.path.insert(0, app_root)
 
 from pipeline.prediction_pipeline import hybrid_recommendation
 
