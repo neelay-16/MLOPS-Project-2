@@ -7,10 +7,17 @@
 !Dockerfile
 !requirements.txt
 !setup.py
-!src/
-!pipeline/
-!artifacts/
 !application.py
+
+# Fix: allow folder AND its contents
+!src/
+!src/**
+!pipeline/
+!pipeline/**
+!artifacts/
+!artifacts/**
+
+# Allow model files
 !*.pkl
 !*.joblib
 !*.model
