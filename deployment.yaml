@@ -15,7 +15,6 @@ spec:
       containers:
       - name: ml-app-container
         image: gcr.io/infra-window-453718-m0/ml-project:latest
-        command: ["sleep", "infinity"]
         ports:
         - containerPort: 5000  # Replace with the port your app listens on
 ---
