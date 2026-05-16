@@ -58,11 +58,14 @@ pipeline {
                         echo 'Build and Push Image to GCR'
                         sh '''
                         export PATH=$PATH:${GCLOUD_PATH}
-                        
+                    
                         gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
                         gcloud config set project ${GCP_PROJECT}
                         
-                        echo "=== Building and Pushing using gcloud ==="
+                        echo "=== Enabling Cloud Build API if needed ==="
+                        gcloud services enable cloudbuild.googleapis.com --project=${GCP_PROJECT} || true
+                        
+                        echo "=== Building and Pushing using Cloud Build ==="
                         gcloud builds submit --tag gcr.io/${GCP_PROJECT}/ml-project:latest .
                     '''
                     }
