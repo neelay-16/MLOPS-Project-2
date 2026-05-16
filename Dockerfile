@@ -1,10 +1,9 @@
 FROM python:3.11-slim-bookworm
 
-# Set environment variables to prevent Python from writing .pyc files & Ensure Python output is not buffered
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
-# Install system dependencies required by TensorFlow
+# Install system dependencies
 RUN apt-get update --fix-missing && \
     apt-get install -y --no-install-recommends \
     build-essential \
@@ -16,20 +15,22 @@ RUN apt-get update --fix-missing && \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Set the working directory
 WORKDIR /app
 
-# Copy the application code
+# Copy only requirements first (better caching)
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the code
 COPY . .
 
-# Install dependencies from requirements.txt
+# Install in editable mode (if needed)
 RUN pip install --no-cache-dir -e .
 
-# Train the model before running the application
-RUN python pipeline/training_pipeline.py
+# === IMPORTANT: Do NOT train here ===
+# Remove or comment this line:
+# RUN python pipeline/training_pipeline.py
 
-# Expose the port that Flask will run on
 EXPOSE 5000
 
-# Command to run the app
 CMD ["python", "application.py"]
